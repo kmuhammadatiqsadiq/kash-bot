@@ -1,0 +1,63 @@
+{
+  "channels": {
+    "news": {
+      "webhook_env": "WEBHOOK_NEWS",
+      "username": "Kash News",
+      "color": "#3B82D6",
+      "daily_cap": 5,
+      "priority_extra": 2,
+      "max_age_hours": 24,
+      "feeds": [
+        {"name": "Prothom Alo English", "url": "https://en.prothomalo.com/stories.rss"},
+        {"name": "Dhaka Tribune", "url": "https://www.dhakatribune.com/feed/"}
+      ],
+      "include": ["bangladesh", "dhaka", "government", "parliament", "court", "verdict", "election",
+                  "economy", "budget", "inflation", "taka", "bangladesh bank", "remittance", "garment",
+                  "flood", "cyclone", "earthquake", "fire", "accident", "killed", "dies", "arrested",
+                  "electricity", "gas", "price", "exam", "ssc", "hsc", "admission", "rohingya", "internet"],
+      "exclude": ["podcast", "video", "photos", "quiz", "horoscope", "gossip", "opinion", "editorial",
+                  "celebrity", "box office", "fashion", "recipe", "live blog", "watch"],
+      "priority": ["breaking", "earthquake", "cyclone", "flood", "killed", "dies", "fire"]
+    },
+    "football": {
+      "webhook_env": "WEBHOOK_FOOTBALL",
+      "username": "Kash Football",
+      "color": "#17885F",
+      "daily_cap": 4,
+      "priority_extra": 2,
+      "max_age_hours": 24,
+      "feeds": [
+        {"name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"}
+      ],
+      "include": ["real madrid", "champions league", "world cup", "la liga", "el clasico", "clasico",
+                  "ballon d'or", "transfer", "bangladesh"],
+      "exclude": ["podcast", "video", "quiz", "gossip", "predictions", "live:", "watch"],
+      "priority": ["real madrid"]
+    },
+    "cricket": {
+      "webhook_env": "WEBHOOK_CRICKET",
+      "username": "Kash Cricket",
+      "color": "#17885F",
+      "daily_cap": 4,
+      "priority_extra": 2,
+      "max_age_hours": 24,
+      "feeds": [
+        {"name": "ESPNcricinfo", "url": "https://www.cricinfo.com/rss/content/story/feeds/0.xml"},
+        {"name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml"}
+      ],
+      "include": ["bangladesh", "tigers", "world cup", "asia cup", "bpl", "icc", "test series",
+                  "champions trophy", "t20 world cup"],
+      "exclude": ["podcast", "video", "quiz", "fantasy", "betting", "watch"],
+      "priority": ["bangladesh"]
+    }
+  },
+  "matchday": {
+    "webhook_env": "WEBHOOK_MATCHDAY",
+    "username": "Match Day",
+    "color": "#B8860B",
+    "remind_minutes_before": 60,
+    "teams": [
+      {"name": "Real Madrid", "football_data_id": 86}
+    ]
+  }
+}
