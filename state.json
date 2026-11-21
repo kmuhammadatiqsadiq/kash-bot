@@ -9,9 +9,14 @@
    "cricket": 1,
    "football": 3,
    "news": 7
+  },
+  "2026-11-22": {
+   "cricket": 0,
+   "football": 0,
+   "news": 3
   }
  },
- "last_run_date": "2026-11-21",
+ "last_run_date": "2026-11-22",
  "reminded": [],
  "seen": [
   "43b2f8052f9e0e96",
@@ -612,6 +617,18 @@
   "0a93bea41ed3b378",
   "f89b2152cd279e21",
   "1a3f8bbd2a6f0f91",
-  "f861b7df1e58de77"
+  "f861b7df1e58de77",
+  "a7a7bd97afd121c6",
+  "8fb20b15521424f2",
+  "2eddc4ca2cb1b889",
+  "1b155079e48ec855",
+  "621f42e6b5f657be",
+  "e35e212d8e3022ad",
+  "6f8b55f5519a7690",
+  "389ff0c444cad0e7",
+  "d4b563aa85b2a6eb",
+  "e2a26a79359fd76f",
+  "6a24330aeebffd6e",
+  "b053846d22e926f5"
  ]
 }
