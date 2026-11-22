@@ -17,7 +17,7 @@
   },
   "2026-11-23": {
    "cricket": 0,
-   "football": 2,
+   "football": 3,
    "news": 5
   }
  },
@@ -938,6 +938,9 @@
   "b2c3859da947b49b",
   "e98026c13cb6fa3d",
   "d2f2b4dbbd963d44",
-  "a86eddbc415ae655"
+  "a86eddbc415ae655",
+  "3c57532e41ea4d6d",
+  "6468809ae1429802",
+  "8ba5128bdca9201a"
  ]
 }
