@@ -1,10 +1,5 @@
 {
  "daily": {
-  "2026-11-22": {
-   "cricket": 1,
-   "football": 4,
-   "news": 7
-  },
   "2026-11-23": {
    "cricket": 4,
    "football": 4,
@@ -19,9 +14,14 @@
    "cricket": 4,
    "football": 4,
    "news": 7
+  },
+  "2026-11-26": {
+   "cricket": 0,
+   "football": 1,
+   "news": 2
   }
  },
- "last_run_date": "2026-11-25",
+ "last_run_date": "2026-11-26",
  "reminded": [
   "fd-564754",
   "fd-575397"
@@ -1708,6 +1708,14 @@
   "2e226148b68f366c",
   "45ccc9f69fafc10c",
   "14dc7639b5b88f03",
-  "081b07d4c6f62e24"
+  "081b07d4c6f62e24",
+  "93dedc327171b3fa",
+  "5777acc7151027ef",
+  "47f3c6a7095bc2ff",
+  "1af7dac1fb6107bf",
+  "e116b98ba780b3ef",
+  "eb61dd7b4f414dac",
+  "081122cc10fef93b",
+  "1c1ca6bcb078e5f7"
  ]
 }
