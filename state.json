@@ -18,7 +18,7 @@
   "2026-11-26": {
    "cricket": 0,
    "football": 4,
-   "news": 5
+   "news": 6
   }
  },
  "last_run_date": "2026-11-26",
@@ -1780,6 +1780,8 @@
   "dabfd913195ab51e",
   "c460ce4d3dbf1f37",
   "e339380ffc79a301",
-  "7f7ff8c096c570f8"
+  "7f7ff8c096c570f8",
+  "67688af4d4b3fb2a",
+  "d6dd8c381c1646e3"
  ]
 }
